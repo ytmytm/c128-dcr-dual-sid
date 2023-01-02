@@ -24,7 +24,7 @@ I have mostly done measurements and shaped the PCB.
 
 ### Schematic
 
-PDF plot of [the schematic can be found here](kicad/plots/C128DCR Dual SID.pdf).
+PDF plot of [the schematic can be found here](kicad/plots/C128DCR%20Dual%20SID.pdf).
 
 [kicad](kicad/) folder contains all the KiCad 6.0 project files.
 
@@ -77,13 +77,13 @@ For digi boost additionally set RV1 and RV2 trimmers while playing some sampled 
 - then two sockets for primary and secondary SIDs, check the orientation
 - finally capacitors and trimmers; pay attention to the correct C70/C71 values
 
-I put small holes in the PCB where plastic standoffs can be put to support the board on both ends and reduce stress on the mainboard SID socket.
+There are small holes in the PCB where plastic standoffs can be put to support the board on both ends and reduce stress on the mainboard SID socket.
 It's especially important on the top right end, next to secondary SID.
 
 After assembling two such boards I noticed that power supply modules in different C128DCRs have different dimensions.
 To be sure that nothing will be shorted I put kapton tape on the whole left-hand side of the board after installation, also covering socketed primary SID.
 
-## SID#2 chip select signal and test
+## SID#2 chip select signal and testing
 
 You need to decide where in the I/O memory space SID#2 will be available.
 Even though signal for $D700 is easily available on C128 (it's pin 12 of U3) most stereo/dual SID tunes use $D420, $D500 or $DE00.
