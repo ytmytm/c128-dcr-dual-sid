@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "C64-Stereo-SID-rescue")(type "Legacy")(uri "${KIPRJMOD}/C128DCR Dual SID-rescue.lib")(options "")(descr ""))
+  (lib (name "mos_6581")(type "Legacy")(uri "${KIPRJMOD}/mos_6581.lib")(options "")(descr ""))
+)
