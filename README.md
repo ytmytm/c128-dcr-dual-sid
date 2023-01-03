@@ -4,6 +4,8 @@ This is a daughterboard that allows to have dual SID audio in a C128DCR. Althoug
 
 This project is meant for two 8580 chips, as far as I know the only type installed in C128DCRs. But you never know, so just in case I left information about supporting 6581 SIDs too.
 
+<img src="media/01.armsid.jpg" alt="Dual SID board installed with a single ARMSID" width=640>
+
 ## Background
 
 The goal of this project was to make the PCB fit in the oddly shaped space and make it fit in the narrow area between power suppy and already installed
@@ -35,6 +37,8 @@ PDF plot of [the schematic can be found here](kicad/plots/C128DCR%20Dual%20SID.p
 The PCB hugs 256K MMU expansion board on one side, tries to avoid power supply on the other side and also has to leave space for screw standoff under the power supply module.
 
 ## PCB Assembly
+
+<img src="media/02.parts.jpg" alt="Parts gathered to assemble the PCB. One of the resistors is not needed though." width=640>
 
 Both SID chips must be identical. For C128DCR these should be usually MOS 8580 powered by 9V.
 
@@ -69,6 +73,14 @@ You can also keep all jumpers open to make external input floating. Some people 
 For digi boost additionally set RV1 and RV2 trimmers while playing some sampled audio to bring digital sound to an acceptable volume level relative to regular SID voices.
 
 [MixSID configuration tool](http://henning-liebenau.de/mixsid/configurator.html) has excellent desription of both noise reduction and digi boost modes.
+
+<img src="media/01.armsid.jpg" alt="Dual SID board installed with a single ARMSID" width=640>
+
+On the image there is a single ARMSID and unpopulated socket for secondary SID.
+
+For both chips the board is configured for digi boost, so JP1/JP2 set to noise reduction are irrelevant.
+
+Note that R8 is installed here by mistake, but one leg was cut.
 
 ## Installation tips
 
