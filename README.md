@@ -76,11 +76,11 @@ For digi boost additionally set RV1 and RV2 trimmers while playing some sampled 
 
 <img src="media/01.armsid.jpg" alt="Dual SID board installed with a single ARMSID" width=640>
 
-On the image there is a single ARMSID and unpopulated socket for secondary SID.
+On the image above there is a single ARMSID as primary SID and an unpopulated socket for secondary SID.
 
-For both chips the board is configured for digi boost, so JP1/JP2 set to noise reduction are irrelevant.
+For both chips the board is configured with JP3/JP4 for digi boost, so JP1/JP2 set to noise reduction are irrelevant.
 
-Note that R8 is installed here by mistake, but one leg was cut.
+Note that R8 is installed here by mistake, but its one leg was cut.
 
 ## Installation tips
 
