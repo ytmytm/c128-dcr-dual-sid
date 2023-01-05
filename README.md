@@ -72,7 +72,7 @@ You can also keep all jumpers open to make external input floating. Some people 
 
 For digi boost additionally set RV1 and RV2 trimmers while playing some sampled audio to bring digital sound to an acceptable volume level relative to regular SID voices.
 
-[MixSID configuration tool](http://henning-liebenau.de/mixsid/configurator.html) has excellent desription of both noise reduction and digi boost modes.
+[MixSID configuration tool](http://henning-liebenau.de/mixsid/configurator.html) has excellent description of both noise reduction and digi boost modes.
 
 <img src="media/01.armsid.jpg" alt="Dual SID board installed with a single ARMSID" width=640>
 
