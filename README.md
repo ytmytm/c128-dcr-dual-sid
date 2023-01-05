@@ -8,7 +8,7 @@ This project is meant for two 8580 chips, as far as I know the only type install
 
 ## Background
 
-The goal of this project was to make the PCB fit in the oddly shaped space and make it fit in the narrow area between power suppy and already installed
+The goal of this project was to make the PCB fit in the narrow area between power supply and already installed
 [256K MMU expansion](https://github.com/ytmytm/c128-mmu-256k-exp).
 
 The audio output is mixed as 6-voices mono and passed through onboard amplifier to audio/video port.
