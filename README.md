@@ -8,7 +8,7 @@ This project is meant for two 8580 chips, as far as I know the only type install
 
 ## Background
 
-The goal of this project was to make the PCB fit in the oddly shaped space and make it fit in the narrow area between power suppy and already installed
+The goal of this project was to make the PCB fit in the narrow area between power supply and already installed
 [256K MMU expansion](https://github.com/ytmytm/c128-mmu-256k-exp).
 
 The audio output is mixed as 6-voices mono and passed through onboard amplifier to audio/video port.
@@ -74,7 +74,7 @@ You can also keep all jumpers open to make external input floating. Some people 
 
 For digi boost additionally set RV1 and RV2 trimmers while playing some sampled audio to bring digital sound to an acceptable volume level relative to regular SID voices.
 
-[MixSID configuration tool](http://henning-liebenau.de/mixsid/configurator.html) has excellent desription of both noise reduction and digi boost modes.
+[MixSID configuration tool](http://henning-liebenau.de/mixsid/configurator.html) has excellent description of both noise reduction and digi boost modes.
 
 <img src="media/01.armsid.jpg" alt="Dual SID board installed with a single ARMSID" width=640>
 
