@@ -28,7 +28,9 @@ I have mostly done measurements and shaped the PCB.
 
 PDF plot of [the schematic can be found here](kicad/plots/C128DCR%20Dual%20SID.pdf).
 
-[kicad](kicad/) folder contains all the KiCad 6.0 project files.
+[kicad](kicad/) folder contains all the KiCad 6.0 project files for C128DCR.
+
+[kicad-c128d](kicad-c128d/) folder contains all the KiCad 6.0 project files for C128D.
 
 ### PCB
 
