@@ -38,6 +38,8 @@ PDF plot of [the schematic can be found here](kicad/plots/C128DCR%20Dual%20SID.p
 
 The PCB hugs 256K MMU expansion board on one side, tries to avoid power supply on the other side and also has to leave space for screw standoff under the power supply module.
 
+[kicad-c128d/plots](kicad-c128d/plots) folder contains all the KiCad 6.0 project files for C128D.
+
 ## PCB Assembly
 
 <img src="media/02.parts.jpg" alt="Parts gathered to assemble the PCB. One of the resistors is not needed though." width=640>
@@ -86,6 +88,8 @@ Note that R8 is installed here by mistake, but its one leg was cut.
 
 ## Installation tips
 
+### C128DCR
+
 - solder round pins to two rows of the `SID_ADAPTER` footprint first.
 - then solder lowest components first: the resistors (skip R8 if you are going to use 8580 chips)
 - then two sockets for primary and secondary SIDs, check the orientation
@@ -96,6 +100,10 @@ It's especially important on the top right end, next to secondary SID.
 
 After assembling two such boards I noticed that power supply modules in different C128DCRs have different dimensions.
 To be sure that nothing will be shorted I put kapton tape on the whole left-hand side of the board after installation, also covering socketed primary SID.
+
+### C128D
+
+Start by soldering round pins to row closest to the PCB's edge and to the row marked on the silkscreen. Then proceed with C128DCR instructions.
 
 ## SID#2 chip select signal and testing
 
