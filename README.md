@@ -1,4 +1,4 @@
-# Dual SID for C128DCR
+# Dual SID for C128DCR and C128D
 
 This is a daughterboard that allows to have dual SID audio in a C128DCR. Although C128DCR has a huge case the space near SID and MMU is very awkward due to power supply.
 
@@ -39,6 +39,8 @@ PDF plot of [the schematic can be found here](kicad/plots/C128DCR%20Dual%20SID.p
 The PCB hugs 256K MMU expansion board on one side, tries to avoid power supply on the other side and also has to leave space for screw standoff under the power supply module.
 
 [kicad-c128d/plots](kicad-c128d/plots) folder contains all the KiCad 6.0 project files for C128D.
+
+<img src="media/PCB-C128D-top.png" alt="Top view on a PCB for C128D" width=640>
 
 ## PCB Assembly
 
